@@ -18,7 +18,7 @@ buddy = ["allocator/buddy"]
 [dependencies]
 log = "0.4"
 cfg-if = "1.0"
-spinlock = { path = "../../crates/spinlock" }
-memory_addr = { path = "../../crates/memory_addr" }
-allocator = { path = "../../crates/allocator", features = ["bitmap"] }
-axerrno = { path = "../../crates/axerrno" }
+spinlock = { git = "https://github.com/Starry-OS/spinlock.git" }
+memory_addr = { git = "https://github.com/Starry-OS/memory_addr.git" }
+allocator = { git = "https://github.com/Starry-OS/allocator.git", features = ["bitmap"] }
+axerrno = { git = "https://github.com/Starry-OS/axerrno.git" }
